@@ -31,6 +31,10 @@
           <p class="about">
             <%= Obelisk.Config.config.bio %>
           </p>
+          <p class="find-me centered">
+            <a href="<%= Obelisk.Config.config.twitter %>" target="_"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="<%= Obelisk.Config.config.github %>" target="_"><i class="fa fa-github fa-2x"></i></a>
+          </p>
         </div>
       </div>
     </div>
